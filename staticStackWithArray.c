@@ -6,7 +6,7 @@ int stack[max],top=-1;          // global variable
 
 void push();
 int pop();
-void disp();
+void display();
 
 main()
 {
@@ -15,7 +15,7 @@ main()
     {
         printf("\n1. Push");
         printf("\n2. Pop");
-        printf("\n3. Display the Stack ");
+        printf("\n3. display the Stack ");
         printf("\n4. EXIT");
         printf("\n\nEnter what you want:\n");
         scanf("%d",&w);
@@ -28,7 +28,7 @@ main()
             r=pop();
             break;
         case 3:
-            disp();
+            display();
             break;
         case 4:
             exit(1);
@@ -71,11 +71,11 @@ int pop()
 
 }
 
-void disp()
+void display()
 {
     int i;
     if(top==-1){
-        printf("\nNothing to Display !!\n");
+        printf("\nNothing to displaylay !!\n");
         return;
     }
     else {
