@@ -1,0 +1,12 @@
+// Define the struct
+
+// Declare the stack variables
+
+// Allocate the dynamic memory of linked list in heap
+
+// Link 1st And 2nd Node
+// Link 2nd And 3rd Node
+// Terminate the list at the third node
+
+
+ // Called linkedListTraversal Function
