@@ -1,12 +1,23 @@
-// Define the struct
+Step:
 
-// Declare the stack variables
+Define the struct
 
-// Allocate the dynamic memory of linked list in heap
+Declare the stack variables
 
-// Link 1st And 2nd Node
-// Link 2nd And 3rd Node
-// Terminate the list at the third node
+Allocate the dynamic memory of linked list in heap
+
+Link 1st And 2nd Node 
+Link 2nd And 3rd Node
+Terminate the list at the third node
 
 
- // Called linkedListTraversal Function
+Called linkedListTraversal Function
+
+STEP 2:
+
+Linked List Insertion:
+
+CASE 1: Insert at the beginning
+CASE 2: Insert in between
+CASE 3: Insert at the end
+CASE 4: Insert after a Node
