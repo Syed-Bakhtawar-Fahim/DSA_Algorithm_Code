@@ -2,7 +2,7 @@ Step:
 
 Define the struct
 
-Declare the stack variables
+Declare the struck variables
 
 Allocate the dynamic memory of linked list in heap
 
@@ -21,3 +21,11 @@ CASE 1: Insert at the beginning
 CASE 2: Insert in between
 CASE 3: Insert at the end
 CASE 4: Insert after a Node
+
+Linked List Deletion:
+CASE 1: Deleting the 1st Node
+CASE 2: Deleting a Node in between
+CASE 3: Delete the last Node
+CASE 4: Delete a Node with a given value/key/data (First Node With that Value)
+
+
