@@ -173,7 +173,7 @@ struct Node *aDiffernceB(struct Node *head1,
 
         if(t1->data == t2->data)
             t1 = t1->next; 
-            // t2 = t2->next;
+            t2 = t2->next;
 
         if(t1->data < t2->data)
             push(&result, t1->data);
