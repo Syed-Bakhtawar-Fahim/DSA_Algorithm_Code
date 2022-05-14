@@ -66,7 +66,7 @@ int main()
 	
 	// deQueue Elements
 	printf("Dequeuing element is: %d \n", deQueue(&q));
-	printf("Dequeuing element is: %d \n", deQueue(&q));
+	printf("Dequeuing element is: %d \n", deQueue(&q));`
 	
 	// Check empty or not
 	if(isEmpty(&q))
