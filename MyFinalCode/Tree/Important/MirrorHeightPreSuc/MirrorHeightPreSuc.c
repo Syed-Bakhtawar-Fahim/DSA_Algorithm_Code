@@ -190,6 +190,18 @@ int maxDepth(struct Node* root)
     }
 }
 
+static int count = 0;
+int countnodes(struct Node *root)
+{
+    if(root != NULL)
+    {
+        countnodes(root->left);
+        count++;
+        countnodes(root->right);
+    }
+    return count;
+}
+
 int main()
 {
 	
@@ -215,24 +227,33 @@ int main()
     insert(root, 70);
     insert(root, 60);
     insert(root, 80);
+
+    struct Node *newnode = getNewNode(25);
+    newnode->left = getNewNode(27);
+    newnode->right = getNewNode(19);
+    newnode->left->left = getNewNode(17);
+    newnode->left->right = getNewNode(91);
+    newnode->right->left = getNewNode(13);
+    newnode->right->right = getNewNode(55);
+   
 		
-	printf("This is PreOrder: \n");
+	printf("This is Preorder: \n");
 	preOrder(root);
 	printf("\n");
 	printf("\n");
 	
-	printf("This is inOrder: \n");
+	printf("This is Inorder: \n");
 	inOrder(root);
 	printf("\n");
 	printf("\n");
 	
-	printf("This is postOrder: \n");
+	printf("This is Postorder: \n");
 	postOrder(root);
 	printf("\n");
 	printf("\n");
 	
 	
-	printf("After deleteing 300, the new tree is (inORder)\n");
+	printf("After deleteing 300, the new tree is in Inorder\n");
 	root = deleteNode(root, 300);
 	inOrder(root);
 	printf("\n");
@@ -266,8 +287,9 @@ int main()
 	   
 	//    inOrder(root);
 	
-	
-	
+	printf("\n");
+	printf("Number of nodes in tree: %d ",countnodes(newnode));
+    printf("\n");
 
 	return 0;
 }

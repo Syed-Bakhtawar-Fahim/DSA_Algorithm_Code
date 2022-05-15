@@ -175,7 +175,7 @@ void findPreSuc(struct Node* root, struct Node* pre,struct Node* suc, int key)
 int getLevelUtil(struct Node * root, int data, int level)
 {
     if(root == NULL)
-        return;
+        printf("No Level\n");
     if(root->key == data)
         return level;
     
