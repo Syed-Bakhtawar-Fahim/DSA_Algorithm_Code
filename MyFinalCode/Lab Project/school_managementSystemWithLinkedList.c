@@ -71,7 +71,7 @@ void update(int rollnumber)
         temp = temp->next;
         
     }
-    printf("Student with roll number %d is not found !!!\n", rollnumber);
+    printf("Student with roll number %d is not found\n", rollnumber);
     
 }
 void Delete(int rollnumber)
