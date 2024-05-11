@@ -7,4 +7,4 @@ In this folder, I will push the complete code of the DSA Algorithm, like Linked 
 Thank you
 
 # License
-Under `MIT`
+Under `MIT`. Nobody has right to copy it `Contributors` are most welcome you can create a new branch of your name
